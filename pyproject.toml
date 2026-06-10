@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cs_data_utils"
-version = "1.0.0"
+version = "1.1.0"
 description = "Shared data utilities for civil service data pipelines"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
 dependencies = [
+    "ipython",
     "pandas>=3.0",
 ]
